@@ -23,9 +23,9 @@ class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main) // Создайте layout файл activity_main.xml
+        setContentView(R.layout.activity_main)
 
-        val button = findViewById<Button>(R.id.cameraButton) //  Замените R.id.cameraButton на ID вашей кнопки
+        val button = findViewById<Button>(R.id.cameraButton)
 
         cameraExecutor = Executors.newSingleThreadExecutor()
 
